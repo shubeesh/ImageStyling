@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(to right, darkolivegreen, lawngreen);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 500px
+}
+img{
+    margin: 10px 5px;
+    width: 300px;
+    border: 5px solid #333;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    filter: grayscale(100%) brightness(110%) contrast(70%) blur(px);
+}
+img:hover{
+    border: 5px solid yellow;
+}
